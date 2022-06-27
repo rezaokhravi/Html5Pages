@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="../assets/css/primeflex.css">
+    <link rel="stylesheet" href="https://unpkg.com/primeflex/themes/saga-blue.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+<body>
+
+<div class="wrapper">
+    <div class="grid">
+        <!-- Card -->
+        <div class="col-12 md:col-6 lg:col-4  card [ is-collapsed ]">
+            <div class="card__inner  relative surface-ground shadow-2 border-round "
+                 style="
+             height: 350px;
+             width: 535px;">
+
+                <!-- Footer Card -->
+                <div class="footer-card absolute bottom-0 right-0 flex w-full ">
+                    <div class="relative flex flex-column w-full h-full">
+                        <!-- button Modify Card -->
+                        <div class="absolute flex w-full -mt-4 p-2 right-0">
+                            <div class="z-5  border-circle border-1 border-200 w-2rem h-2rem bg-blue-500  text-gray-900 overflow-hidden flex align-items-center justify-content-center ml-3 cursor-pointer">
+                                <i class="flex bi bi-info-lg text-0"></i>
+                            </div>
+
+                            <div class=" [ js-expander ] z-5  border-circle border-1 border-200 w-2rem h-2rem bg-orange-500  text-gray-900 overflow-hidden flex align-items-center justify-content-center ml-3 cursor-pointer">
+                                <i class="flex bi bi-pencil-square text-0 btn-edit"></i>
+                            </div>
+
+                            <div class="z-5  border-circle border-1 border-200 w-2rem h-2rem bg-pink-400 text-gray-900 overflow-hidden flex align-items-center justify-content-center ml-3 cursor-pointer">
+                                <i class="flex bi bi-trash text-0"></i>
+                            </div>
+                        </div>
+                        <!-- End button Modify Card -->
+
+                        <!-- Detail Card -->
+                        <div class="flex w-full h-full border-round overflow-hidden">
+                            <div class="col-3 bg-purple-500 flex flex-column align-items-center justify-content-center text-100">
+                                <i class="bi bi-clipboard2-data flex text-5xl"></i>
+                                <p class="text-center m-0">جزئیات</p>
+                            </div>
+                            <div class="col surface-ground">
+                                <div class="flex flex-column align-items-start justify-content-between h-full ">
+                                    <div class="w-full text-right">
+                                        <div class="flex flex-column">
+                                            <div class="m-0">
+                                                <span class="text-600 text-xs">نام پروژه :</span>
+                                                <span>پروژه صحف</span>
+                                            </div>
+                                            <h6 class="text-600 m-0">سرپرست مهندس سنکار</h6>
+                                        </div>
+                                        <div class="date-project">
+                                            <div class=" col-12 md:col-6 m-0 p-0 ">
+                                                <span class="text-600 text-xs"><i class="bi bi-calendar-date"></i> :</span>
+                                                <span>1399/01/01</span>
+                                            </div>
+                                            <div class="col-12 md:col-6 m-0 p-0">
+                                                <span class="text-600 text-xs"><i class="bi bi-calendar-date"></i> :</span>
+                                                <span>1400/01/01</span>
+                                            </div>
+                                        </div>
+
+
+
+                                    </div>
+                                    <div class="w-full text-right">
+                                        <span class="text-600 text-xs">مدیران :</span>
+                                        <div class="flex w-full justify-content-around">
+                                            <div class="border-circle border-2 border-200 shadow-4 w-3rem h-3rem surface-ground text-gray-900 overflow-hidden flex align-items-center justify-content-center">
+                                                <img src="../assets/images/jpg/pic.jpg" style="width: 100%;height: 100%">
+                                            </div>
+                                            <div class="border-circle border-2 border-200 shadow-4 w-3rem h-3rem surface-ground text-gray-900 overflow-hidden flex align-items-center justify-content-center">
+                                                <img src="../assets/images/jpg/pic2.jpg" style="width: 100%;height: 100%">
+                                            </div>
+                                            <div class="border-circle border-2 border-200 shadow-4 w-3rem h-3rem surface-ground text-gray-900 overflow-hidden flex align-items-center justify-content-center">
+                                                <img src="../assets/images/jpg/pic3.jpg" style="width: 100%;height: 100%">
+                                            </div>
+                                            <div class="border-circle border-2 border-200 shadow-4 w-3rem h-3rem surface-ground text-gray-900 overflow-hidden flex align-items-center justify-content-center">
+                                                <img src="../assets/images/jpg/pic4.jpg" style="width: 100%;height: 100%">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 surface-ground">
+                                <div class="flex flex-column align-content-center justify-content-around h-full text-center">
+                                    <div class="text-indigo-400 text-3xl">935</div>
+                                    <div>
+                                        <i class="bi bi-star text-cyan-600"></i>
+                                        <i class="bi bi-star text-cyan-600"></i>
+                                        <i class="bi bi-star-half text-cyan-600"></i>
+                                        <i class="bi bi-star-fill text-cyan-600"></i>
+                                        <i class="bi bi-star-fill text-cyan-600"></i>
+                                        <i class="bi bi-star-fill text-cyan-600"></i>
+                                    </div>
+                                    <div class="text-purple-600 text-1xl">(3.5 امتیاز)</div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- End Detail  Card -->
+                    </div>
+                </div>
+                <!-- End Footer Card -->
+
+                <!-- Image Card -->
+                <img src="../assets/images/jpg/project.jpg" class="w-full h-full border-round">
+                <!-- End Image Card -->
+            </div>
+            <!-- Form Expander -->
+            <div class="card__expander flex relative align-content-center justify-content-center surface-ground shadow-2 border-round">
+                <i class="bi bi-door-closed [ js-collapser ]"></i>
+                Expander
+            </div>
+            <!-- End Form Expander -->
+        </div>
+        <!-- End Card -->
+
+
+    </div>
+</div>
+
+
+<script src="../assets/lib/bootstrap-5.2.0/js/bootstrap.bundle.js"></script>
+<script src="../assets/js/jquery-3.6.0.min.js"></script>
+
+<script>
+
+        var $cell = $('.card');
+
+        //open and close card when clicked on card
+        $cell.find('.js-expander').click(function () {
+            var $thisCell = $(this).closest('.card');
+
+            if ($thisCell.hasClass('is-collapsed')) {
+                $cell
+                    .not($thisCell)
+                    .removeClass('is-expanded')
+                    .addClass('is-collapsed')
+                    .addClass('is-inactive');
+                $thisCell.removeClass('is-collapsed').addClass('is-expanded');
+
+                if ($cell.not($thisCell).hasClass('is-inactive')) {
+                    //do nothing
+                } else {
+                    $cell.not($thisCell).addClass('is-inactive');
+                }
+            } else {
+                $thisCell.removeClass('is-expanded').addClass('is-collapsed');
+                $cell.not($thisCell).removeClass('is-inactive');
+            }
+        });
+
+        //close card when click on cross
+        $cell.find('.js-collapser').click(function () {
+            var $thisCell = $(this).closest('.card');
+
+            $thisCell.removeClass('is-expanded').addClass('is-collapsed');
+            $cell.not($thisCell).removeClass('is-inactive');
+        });
+
+</script>
+</body>
+</html>
